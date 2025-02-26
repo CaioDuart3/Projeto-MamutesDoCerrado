@@ -16,7 +16,7 @@ from rest_framework import status, viewsets
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from django.http import HttpResponse
-
+import os
 from .forms import EventForm, PostForm, TaskForm
 from .models import (
     Area, Column, Event, MembroEquipe, Post, Subtask, Task)
