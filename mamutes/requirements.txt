@@ -5,6 +5,7 @@ chardet==5.2.0
 charset-normalizer==3.4.0
 click==8.1.7
 colorama==0.4.6
+dj-database-url==2.3.0
 Django==5.1.4
 django-cors-headers==4.6.0
 djangorestframework==3.15.2
@@ -23,6 +24,7 @@ paginate==0.5.7
 pathspec==0.12.1
 pillow==11.1.0
 platformdirs==4.3.6
+psycopg2-binary==2.9.10
 Pygments==2.18.0
 pymdown-extensions==10.12
 python-dateutil==2.9.0.post0
@@ -34,5 +36,7 @@ reportlab==4.2.5
 requests==2.32.3
 six==1.17.0
 sqlparse==0.5.3
+typing_extensions==4.12.2
 urllib3==2.2.3
 watchdog==6.0.0
+whitenoise==6.9.0
