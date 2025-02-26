@@ -25,7 +25,11 @@ from report.models import Meeting
 from .serializers import ColumnSerializer, TaskSerializer
 
 
-locale.setlocale(locale.LC_TIME, 'pt_BR.UTF-8')
+try:
+    locale.setlocale(locale.LC_TIME, os.getenv("LANG", "C.UTF-8"))
+except locale.Error:
+    locale.setlocale(locale.LC_TIME, "C.UTF-8")
+
 
 
 def sidebar(request):
